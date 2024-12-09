@@ -315,11 +315,9 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: "pages"
+      type: posts
     values:
       layout: single
-      permalink: /
-      title: "AWS 기반 Ollama 챗봇 프로젝트"
       author_profile: true
       read_time: true
       comments: # true
